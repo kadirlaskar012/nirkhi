@@ -1,0 +1,16 @@
+@import url(base.css);
+body{background:radial-gradient(800px 400px at 100% -10%,rgba(45,212,191,.18),transparent 60%),radial-gradient(600px 400px at -10% 110%,rgba(79,70,229,.10),transparent 60%),var(--bg);min-height:100vh}
+.doc{max-width:760px;margin:0 auto;padding:48px 22px 64px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:22px}.top b{font-size:18px;letter-spacing:-.02em}
+.doc h1{font-size:34px;letter-spacing:-.03em;margin:0 0 6px}.doc h2{font-size:19px;margin:30px 0 8px;letter-spacing:-.015em}
+.doc p,.doc li{color:var(--muted)}.doc b{color:var(--text)}.muted{color:var(--faint)!important;font-size:13px}
+.doc ul{padding-left:20px}.doc li{margin:6px 0}
+.doc code{background:var(--soft);border:1px solid var(--soft2);border-radius:6px;padding:1px 6px;font-size:12.5px;color:var(--text)}
+.doc a{color:var(--pri)}
+.card{border:1px solid var(--border);background:var(--card);backdrop-filter:blur(12px);border-radius:var(--r);padding:26px 28px;box-shadow:var(--sh2)}
+.hero{display:flex;gap:18px;align-items:center;margin:8px 0 26px}.hero img{width:72px;border-radius:20px;box-shadow:var(--glow)}
+.hero h1{margin:0}.hero p{margin:4px 0 0;font-size:16px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}
+.feat div{border:1px solid var(--border);background:var(--card-solid);border-radius:14px;padding:14px}.feat b{display:block;margin-bottom:4px}.feat span{color:var(--muted);font-size:13.5px}
+.shot{width:100%;border-radius:16px;border:1px solid var(--border);box-shadow:var(--sh3);margin:10px 0 20px}
+footer{margin-top:30px;color:var(--faint);font-size:12.5px}
